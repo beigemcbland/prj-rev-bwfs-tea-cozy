@@ -1,0 +1,155 @@
+/* Universal Styles */
+
+body {
+  margin: 0;
+  font-family: "Helvetica";
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+nav span {
+  /*display: inline-block;*/
+  padding-left: 20px;
+}
+
+h2, h3, h4 {
+  margin: 10px auto;
+}
+
+h5 {
+  margin: 7px auto;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+};
+
+.logo span {
+  color: seashell;
+}
+
+header nav {
+  padding-left: 40px;
+  padding-right: 10px;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Mission section */
+.mission {
+  display: flex;
+  margin-top: 70px;
+  padding-top: 70px;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+}
+
+.mission .text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: black;
+}
+
+/* Featured Teas section */
+.featured {
+  margin-top: 70px;
+  padding-top: 70px;
+  width: 1000px;
+}
+
+.featured .title h2 {
+  margin-bottom: 20px;
+}
+
+.featured .teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea {
+  width: 300px;
+  margin: 15px;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+}
+
+/* Locations section */
+.locations {
+  margin-top: 70px;
+  padding-top: 70px;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+}
+
+.locations .locs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.loc {
+  width: 300px;
+  height: 260px;
+  margin: 15px 20px;
+  background-color: black;
+  padding: 10px 5px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Footer */
+
+footer {
+  width: 100%;
+}
+
+footer .info {
+  height: 200px;
+}
+
+footer .copyright {
+  padding-left: 20px;
+  text-align: left;
+}
